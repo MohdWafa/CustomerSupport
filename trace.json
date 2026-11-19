@@ -1,0 +1,1145 @@
+[
+  {
+    "@timestamp": "2026-11-19 10:33:28.913",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.42.1",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-west-2",
+          "telemetry.auto.version": "0.18.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "bedrock_agentcore.app"
+      },
+      "timeUnixNano": 1795084408913902600,
+      "observedTimeUnixNano": 1795084408914404000,
+      "severityNumber": 9,
+      "severityText": "INFO",
+      "body": "Returning streaming response (generator) (0.000s)",
+      "attributes": {
+        "otelSpanID": "3cac60747ad06cba",
+        "otelTraceID": "6afed071688a2f1413dc95ee2e547b15",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/bedrock_agentcore/runtime/app.py",
+        "code.function.name": "_handle_invocation",
+        "code.line.number": 580
+      },
+      "flags": 1,
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "3cac60747ad06cba"
+    },
+    "@ptr": "Ct4BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjUaGAIGriNCXAAAAAAX4/s0AAav7QZAAAABwiABKNGw+ZqfNDDtu/manzQ4EEC8LkizO1CxJSACEAAYAQ=="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:28.987",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.42.1",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-west-2",
+          "telemetry.auto.version": "0.18.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "bedrock_agentcore.app"
+      },
+      "timeUnixNano": 1795084408987728100,
+      "observedTimeUnixNano": 1795084408987951900,
+      "severityNumber": 9,
+      "severityText": "INFO",
+      "body": "Invoking Agent.....",
+      "attributes": {
+        "otelSpanID": "3cac60747ad06cba",
+        "otelTraceID": "6afed071688a2f1413dc95ee2e547b15",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/main.py",
+        "code.function.name": "invoke",
+        "code.line.number": 99
+      },
+      "flags": 1,
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "3cac60747ad06cba"
+    },
+    "@ptr": "Ct8BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjYaGAIGr6hdeAAAAACxxf9vAAav7QZgAAACgiABKJux+ZqfNDCctPmanzQ4DUDLkQFIrkNQgy8gAhAAGAE="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:29.003",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.42.1",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-west-2",
+          "telemetry.auto.version": "0.18.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "botocore.credentials"
+      },
+      "timeUnixNano": 1795084409003406600,
+      "observedTimeUnixNano": 1795084409003638000,
+      "severityNumber": 9,
+      "severityText": "INFO",
+      "body": "Found credentials from IAM Role: execution_role",
+      "attributes": {
+        "otelSpanID": "3cac60747ad06cba",
+        "otelTraceID": "6afed071688a2f1413dc95ee2e547b15",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/botocore/credentials.py",
+        "code.function.name": "load",
+        "code.line.number": 1182
+      },
+      "flags": 1,
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "3cac60747ad06cba"
+    },
+    "@ptr": "Ct8BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjYaGAIGr6hdeAAAAACxxf9vAAav7QZgAAACgiABKJux+ZqfNDCctPmanzQ4DUDLkQFIrkNQgy8gAhABGAE="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:29.255",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.42.1",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-west-2",
+          "telemetry.auto.version": "0.18.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "httpx"
+      },
+      "timeUnixNano": 1795084409255894500,
+      "observedTimeUnixNano": 1795084409256082000,
+      "severityNumber": 9,
+      "severityText": "INFO",
+      "body": "HTTP Request: POST https://mcp.exa.ai/mcp \"HTTP/1.1 200 OK\"",
+      "attributes": {
+        "otelSpanID": "37d69bdad1b15bce",
+        "otelTraceID": "6afed071688a2f1413dc95ee2e547b15",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/httpx/_client.py",
+        "code.function.name": "_send_single_request",
+        "code.line.number": 1740
+      },
+      "flags": 1,
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "37d69bdad1b15bce"
+    },
+    "@ptr": "Ct8BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjYaGAIGr6hdeAAAAACxxf9vAAav7QZgAAACgiABKJux+ZqfNDCctPmanzQ4DUDLkQFIrkNQgy8gAhACGAE="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:29.256",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.42.1",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-west-2",
+          "telemetry.auto.version": "0.18.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "mcp.client.streamable_http"
+      },
+      "timeUnixNano": 1795084409256228600,
+      "observedTimeUnixNano": 1795084409256308200,
+      "severityNumber": 9,
+      "severityText": "INFO",
+      "body": "Received session ID: cf400ac7-139d-4b94-983f-d28181990c09.l7pjflCsPHjCdszB7cDJlw",
+      "attributes": {
+        "otelSpanID": "37d69bdad1b15bce",
+        "otelTraceID": "6afed071688a2f1413dc95ee2e547b15",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/mcp/client/streamable_http.py",
+        "code.function.name": "_maybe_extract_session_id_from_response",
+        "code.line.number": 181
+      },
+      "flags": 1,
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "37d69bdad1b15bce"
+    },
+    "@ptr": "Ct8BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjYaGAIGr6hdeAAAAACxxf9vAAav7QZgAAACgiABKJux+ZqfNDCctPmanzQ4DUDLkQFIrkNQgy8gAhADGAE="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:29.256",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.42.1",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-west-2",
+          "telemetry.auto.version": "0.18.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "mcp.client.streamable_http"
+      },
+      "timeUnixNano": 1795084409256971300,
+      "observedTimeUnixNano": 1795084409257061400,
+      "severityNumber": 9,
+      "severityText": "INFO",
+      "body": "Negotiated protocol version: 2025-11-25",
+      "attributes": {
+        "otelSpanID": "37d69bdad1b15bce",
+        "otelTraceID": "6afed071688a2f1413dc95ee2e547b15",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/mcp/client/streamable_http.py",
+        "code.function.name": "_maybe_extract_protocol_version_from_message",
+        "code.line.number": 193
+      },
+      "flags": 1,
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "37d69bdad1b15bce"
+    },
+    "@ptr": "Ct8BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjYaGAIGr6hdeAAAAACxxf9vAAav7QZgAAACgiABKJux+ZqfNDCctPmanzQ4DUDLkQFIrkNQgy8gAhAEGAE="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:29.299",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.42.1",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-west-2",
+          "telemetry.auto.version": "0.18.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "httpx"
+      },
+      "timeUnixNano": 1795084409299803100,
+      "observedTimeUnixNano": 1795084409299910000,
+      "severityNumber": 9,
+      "severityText": "INFO",
+      "body": "HTTP Request: GET https://mcp.exa.ai/mcp \"HTTP/1.1 405 Method Not Allowed\"",
+      "attributes": {
+        "otelSpanID": "37d69bdad1b15bce",
+        "otelTraceID": "6afed071688a2f1413dc95ee2e547b15",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/httpx/_client.py",
+        "code.function.name": "_send_single_request",
+        "code.line.number": 1740
+      },
+      "flags": 1,
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "37d69bdad1b15bce"
+    },
+    "@ptr": "Ct8BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjYaGAIGr6hdeAAAAACxxf9vAAav7QZgAAACgiABKJux+ZqfNDCctPmanzQ4DUDLkQFIrkNQgy8gAhAFGAE="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:29.300",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.42.1",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-west-2",
+          "telemetry.auto.version": "0.18.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "mcp.client.streamable_http"
+      },
+      "timeUnixNano": 1795084409300491000,
+      "observedTimeUnixNano": 1795084409300575000,
+      "severityNumber": 9,
+      "severityText": "INFO",
+      "body": "GET stream disconnected, reconnecting in 1000ms...",
+      "attributes": {
+        "otelSpanID": "37d69bdad1b15bce",
+        "otelTraceID": "6afed071688a2f1413dc95ee2e547b15",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/mcp/client/streamable_http.py",
+        "code.function.name": "handle_get_stream",
+        "code.line.number": 298
+      },
+      "flags": 1,
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "37d69bdad1b15bce"
+    },
+    "@ptr": "Ct8BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjYaGAIGr6hdeAAAAACxxf9vAAav7QZgAAACgiABKJux+ZqfNDCctPmanzQ4DUDLkQFIrkNQgy8gAhAGGAE="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:29.301",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.42.1",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-west-2",
+          "telemetry.auto.version": "0.18.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "httpx"
+      },
+      "timeUnixNano": 1795084409301873400,
+      "observedTimeUnixNano": 1795084409301967600,
+      "severityNumber": 9,
+      "severityText": "INFO",
+      "body": "HTTP Request: POST https://mcp.exa.ai/mcp \"HTTP/1.1 202 Accepted\"",
+      "attributes": {
+        "otelSpanID": "37d69bdad1b15bce",
+        "otelTraceID": "6afed071688a2f1413dc95ee2e547b15",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/httpx/_client.py",
+        "code.function.name": "_send_single_request",
+        "code.line.number": 1740
+      },
+      "flags": 1,
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "37d69bdad1b15bce"
+    },
+    "@ptr": "Ct8BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjYaGAIGr6hdeAAAAACxxf9vAAav7QZgAAACgiABKJux+ZqfNDCctPmanzQ4DUDLkQFIrkNQgy8gAhAHGAE="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:29.343",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.42.1",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-west-2",
+          "telemetry.auto.version": "0.18.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "httpx"
+      },
+      "timeUnixNano": 1795084409343006500,
+      "observedTimeUnixNano": 1795084409343116500,
+      "severityNumber": 9,
+      "severityText": "INFO",
+      "body": "HTTP Request: POST https://mcp.exa.ai/mcp \"HTTP/1.1 200 OK\"",
+      "attributes": {
+        "otelSpanID": "6c6395c3e0d488e7",
+        "otelTraceID": "6afed071688a2f1413dc95ee2e547b15",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/httpx/_client.py",
+        "code.function.name": "_send_single_request",
+        "code.line.number": 1740
+      },
+      "flags": 1,
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "6c6395c3e0d488e7"
+    },
+    "@ptr": "Ct8BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjYaGAIGr6hdeAAAAACxxf9vAAav7QZgAAACgiABKJux+ZqfNDCctPmanzQ4DUDLkQFIrkNQgy8gAhAIGAE="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:29.344",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-west-2",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "telemetry.sdk.version": "1.42.1",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.18.0-aws"
+        }
+      },
+      "scope": {
+        "name": "amazon.opentelemetry.distro.instrumentation.mcp",
+        "version": "0.18.0"
+      },
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "6c6395c3e0d488e7",
+      "parentSpanId": "3cac60747ad06cba",
+      "flags": 256,
+      "name": "mcp tools/list",
+      "kind": "CLIENT",
+      "startTimeUnixNano": 1795084409260961000,
+      "endTimeUnixNano": 1795084409344470800,
+      "durationNano": 83509793,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "aws.local.operation": "UnmappedOperation",
+        "aws.span.kind": "CLIENT",
+        "telemetry.extended": "true",
+        "mcp.protocol.version": "2025-11-25",
+        "PlatformType": "AWS::BedrockAgentCore",
+        "aws.remote.service": "UnknownRemoteService",
+        "session.id": "f5b5f02d-30e2-491f-a136-f2e5a8dd08b7",
+        "mcp.method.name": "tools/list",
+        "jsonrpc.request.id": "1",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "aws.remote.operation": "UnknownRemoteOperation"
+      },
+      "status": {
+        "code": "OK"
+      }
+    },
+    "@ptr": "Ct4BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjUaGAIGrkyUCwAAAAB5C2rmAAav7QMwAAACsiABKIC0+ZqfNDCAtPmanzQ4AUCJDUiLLlDZGCACEAAYAQ=="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:29.345",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.42.1",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-west-2",
+          "telemetry.auto.version": "0.18.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.instrumentor"
+      },
+      "timeUnixNano": 1795084409345747000,
+      "observedTimeUnixNano": 1795084409346084400,
+      "severityNumber": 13,
+      "severityText": "WARN",
+      "body": "Attempting to instrument while already instrumented",
+      "attributes": {
+        "otelSpanID": "3cac60747ad06cba",
+        "otelTraceID": "6afed071688a2f1413dc95ee2e547b15",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/opentelemetry/instrumentation/instrumentor.py",
+        "code.function.name": "instrument",
+        "code.line.number": 92
+      },
+      "flags": 1,
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "3cac60747ad06cba"
+    },
+    "@ptr": "Ct8BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjYaGAIGr6hdeAAAAACxxf9vAAav7QZgAAACgiABKJux+ZqfNDCctPmanzQ4DUDLkQFIrkNQgy8gAhAJGAE="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:29.351",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.42.1",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-west-2",
+          "telemetry.auto.version": "0.18.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "strands.telemetry.metrics"
+      },
+      "timeUnixNano": 1795084409351464000,
+      "observedTimeUnixNano": 1795084409351563500,
+      "severityNumber": 9,
+      "severityText": "INFO",
+      "body": "Creating Strands MetricsClient",
+      "attributes": {
+        "otelSpanID": "2df8143f2a83ff74",
+        "otelTraceID": "6afed071688a2f1413dc95ee2e547b15",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/strands/telemetry/metrics.py",
+        "code.function.name": "__init__",
+        "code.line.number": 632
+      },
+      "flags": 1,
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "2df8143f2a83ff74"
+    },
+    "@ptr": "Ct8BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjYaGAIGr6hdeAAAAACxxf9vAAav7QZgAAACgiABKJux+ZqfNDCctPmanzQ4DUDLkQFIrkNQgy8gAhAKGAE="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:29.372",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.42.1",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-west-2",
+          "telemetry.auto.version": "0.18.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1795084409372112400,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "You are a helpful and professional customer support assistant for an e-commerce company.\nYour role is to:\n- Provide accurate information using the tools available to you\n- Be friendly, patient, and understanding with customers\n- Always offer additional help after answering questions\n- If you can't help with something, direct customers to the appropriate contact\n\nYou have access to tools for looking up return policies, searching product information, and more.\nAdditional tools may be available at runtime — always check your full tool list and use the most appropriate tool for each customer request.\nAlways use tools to get accurate, up-to-date information rather than guessing."
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "21f4c10648813026",
+      "eventName": "gen_ai.system.message"
+    },
+    "@ptr": "Ct8BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjYaGAIGr6hdeAAAAACxxf9vAAav7QZgAAACgiABKJux+ZqfNDCctPmanzQ4DUDLkQFIrkNQgy8gAhALGAE="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:29.372",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.42.1",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-west-2",
+          "telemetry.auto.version": "0.18.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1795084409372153300,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "What can you do?"
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "21f4c10648813026",
+      "eventName": "gen_ai.user.message"
+    },
+    "@ptr": "Ct8BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjYaGAIGr6hdeAAAAACxxf9vAAav7QZgAAACgiABKJux+ZqfNDCctPmanzQ4DUDLkQFIrkNQgy8gAhAMGAE="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:30.349",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.42.1",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-west-2",
+          "telemetry.auto.version": "0.18.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "httpx"
+      },
+      "timeUnixNano": 1795084410349590800,
+      "observedTimeUnixNano": 1795084410349743900,
+      "severityNumber": 9,
+      "severityText": "INFO",
+      "body": "HTTP Request: GET https://mcp.exa.ai/mcp \"HTTP/1.1 405 Method Not Allowed\"",
+      "attributes": {
+        "otelSpanID": "37d69bdad1b15bce",
+        "otelTraceID": "6afed071688a2f1413dc95ee2e547b15",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/httpx/_client.py",
+        "code.function.name": "_send_single_request",
+        "code.line.number": 1740
+      },
+      "flags": 1,
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "37d69bdad1b15bce"
+    },
+    "@ptr": "Ct4BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjUaGAIGrq9ecwAAAAPBCjI2AAav7QPwAAAGMiABKOel+ZqfNDC7xvmanzQ4CEDGNkjkRFD5LSACEAEYAQ=="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:31.707",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.42.1",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-west-2",
+          "telemetry.auto.version": "0.18.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1795084411707388200,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "finish_reason": "end_turn",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": [
+            {
+              "text": "I'm a customer support assistant, and I can help with a few things:\n\n- **Product information:** I can look up products by name, ID (for example, PROD-001), or keyword. I can give you details like price, category, and description.\n- **Return policies:** I can tell you the return policy for a product category, such as electronics, accessories, or audio. That includes timeframes and conditions.\n- **Web searches:** I can look up current information, news, or general facts. I can also read a specific webpage if you have one in mind.\n\nIf I can't help with something, I'll point you to the right contact.\n\nWhat would you like help with today?"
+            }
+          ]
+        }
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "21f4c10648813026",
+      "eventName": "gen_ai.choice"
+    },
+    "@ptr": "Ct4BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjUaGAIGrq9ecwAAAAPBCjI2AAav7QPwAAAGMiABKOel+ZqfNDC7xvmanzQ4CEDGNkjkRFD5LSACEAcYAQ=="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:31.707",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-west-2",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "telemetry.sdk.version": "1.42.1",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.18.0-aws"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "version": "0.63b1"
+      },
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "21f4c10648813026",
+      "parentSpanId": "ed128adf8ca64a0b",
+      "flags": 256,
+      "name": "chat global.anthropic.claude-sonnet-5-5",
+      "kind": "CLIENT",
+      "startTimeUnixNano": 1795084409372070100,
+      "endTimeUnixNano": 1795084411707789000,
+      "durationNano": 2335718827,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "rpc.service": "Bedrock Runtime",
+        "aws.remote.resource.identifier": "global.anthropic.claude-sonnet-5-5",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "aws.remote.operation": "ConverseStream",
+        "gen_ai.provider.name": "aws.bedrock",
+        "server.address": "bedrock-runtime.us-west-2.amazonaws.com",
+        "gen_ai.request.max_tokens": 128000,
+        "aws.request_id": "676fcce7-26d4-4441-be77-41a40fc269b0",
+        "aws.local.operation": "UnmappedOperation",
+        "aws.span.kind": "CLIENT",
+        "aws.auth.region": "us-west-2",
+        "rpc.method": "ConverseStream",
+        "gen_ai.response.finish_reasons": [
+          "end_turn"
+        ],
+        "server.port": 443,
+        "gen_ai.request.model": "global.anthropic.claude-sonnet-5-5",
+        "http.response.status_code": 200,
+        "gen_ai.system": "aws.bedrock",
+        "telemetry.extended": "true",
+        "gen_ai.usage.output_tokens": 187,
+        "aws.genai.span_kind": "LLM",
+        "rpc.system": "aws-api",
+        "aws.remote.service": "AWS::BedrockRuntime",
+        "http.status_code": 200,
+        "aws.region": "us-west-2",
+        "aws.remote.resource.type": "AWS::Bedrock::Model",
+        "gen_ai.operation.name": "chat",
+        "gen_ai.usage.input_tokens": 1519,
+        "aws.genai.token_count_total": 1706,
+        "retry_attempts": 0,
+        "PlatformType": "AWS::BedrockAgentCore",
+        "aws.auth.account.access_key": "ASIAQE43KFEH7EXRVEA3",
+        "session.id": "f5b5f02d-30e2-491f-a136-f2e5a8dd08b7"
+      },
+      "status": {
+        "code": "UNSET"
+      }
+    },
+    "@ptr": "Ct4BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjUaGAIGrifNEgAAAAEOJBVMAAav7QHAAAAEIiABKLvG+ZqfNDC+xvmanzQ4BUC3bEikflCNTSACEAAYAQ=="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:31.708",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-west-2",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "telemetry.sdk.version": "1.42.1",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.18.0-aws"
+        }
+      },
+      "scope": {
+        "name": "strands.telemetry.tracer",
+        "version": ""
+      },
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "92231e0d1e4204a2",
+      "parentSpanId": "2df8143f2a83ff74",
+      "flags": 256,
+      "name": "execute_event_loop_cycle",
+      "kind": "INTERNAL",
+      "startTimeUnixNano": 1795084409352143400,
+      "endTimeUnixNano": 1795084411708972500,
+      "durationNano": 2356829165,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "gen_ai.operation.name": "execute_event_loop_cycle",
+        "gen_ai.event.end_time": "2026-11-19T10:33:31.708953+00:00",
+        "event_loop.cycle_id": "60ba36d5-56ae-4d65-8265-8e5562f5fe02",
+        "gen_ai.event.start_time": "2026-11-19T10:33:29.352169+00:00",
+        "PlatformType": "AWS::BedrockAgentCore",
+        "session.id": "f5b5f02d-30e2-491f-a136-f2e5a8dd08b7",
+        "gen_ai.system": "strands-agents",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "gen_ai.provider.name": "strands-agents"
+      },
+      "events": [
+        {
+          "timeUnixNano": 1795084409352217000,
+          "name": "gen_ai.user.message",
+          "attributes": {
+            "content": "[{\"text\": \"What can you do?\"}]"
+          }
+        }
+      ],
+      "status": {
+        "code": "OK"
+      }
+    },
+    "@ptr": "Ct4BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjUaGAIGrifNEgAAAAEOJBVMAAav7QHAAAAEIiABKLvG+ZqfNDC+xvmanzQ4BUC3bEikflCNTSACEAIYAQ=="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:31.708",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-west-2",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "telemetry.sdk.version": "1.42.1",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.18.0-aws"
+        }
+      },
+      "scope": {
+        "name": "strands.telemetry.tracer",
+        "version": ""
+      },
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "ed128adf8ca64a0b",
+      "parentSpanId": "92231e0d1e4204a2",
+      "flags": 256,
+      "name": "chat",
+      "kind": "INTERNAL",
+      "startTimeUnixNano": 1795084409352702700,
+      "endTimeUnixNano": 1795084411708417800,
+      "durationNano": 2355715000,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "gen_ai.usage.prompt_tokens": 1519,
+        "gen_ai.usage.output_tokens": 187,
+        "gen_ai.server.request.duration": 2313,
+        "gen_ai.usage.total_tokens": 1706,
+        "gen_ai.usage.completion_tokens": 187,
+        "aws.genai.span_kind": "LLM",
+        "gen_ai.event.start_time": "2026-11-19T10:33:29.352722+00:00",
+        "gen_ai.server.time_to_first_token": 1062,
+        "aws.local.environment": "bedrock-agentcore:default",
+        "gen_ai.provider.name": "strands-agents",
+        "gen_ai.operation.name": "chat",
+        "gen_ai.event.end_time": "2026-11-19T10:33:31.708375+00:00",
+        "gen_ai.usage.input_tokens": 1519,
+        "aws.genai.token_count_total": 1706,
+        "gen_ai.request.model": "global.anthropic.claude-sonnet-5-5",
+        "PlatformType": "AWS::BedrockAgentCore",
+        "session.id": "f5b5f02d-30e2-491f-a136-f2e5a8dd08b7",
+        "gen_ai.system": "strands-agents"
+      },
+      "events": [
+        {
+          "timeUnixNano": 1795084409352771300,
+          "name": "gen_ai.system.message",
+          "attributes": {
+            "content": "[{\"text\": \"You are a helpful and professional customer support assistant for an e-commerce company.\\nYour role is to:\\n- Provide accurate information using the tools available to you\\n- Be friendly, patient, and understanding with customers\\n- Always offer additional help after answering questions\\n- If you can't help with something, direct customers to the appropriate contact\\n\\nYou have access to tools for looking up return policies, searching product information, and more.\\nAdditional tools may be available at runtime — always check your full tool list and use the most appropriate tool for each customer request.\\nAlways use tools to get accurate, up-to-date information rather than guessing.\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1795084409352798000,
+          "name": "gen_ai.user.message",
+          "attributes": {
+            "content": "[{\"text\": \"What can you do?\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1795084411708364800,
+          "name": "gen_ai.choice",
+          "attributes": {
+            "message": "[{\"text\": \"I'm a customer support assistant, and I can help with a few things:\\n\\n- **Product information:** I can look up products by name, ID (for example, PROD-001), or keyword. I can give you details like price, category, and description.\\n- **Return policies:** I can tell you the return policy for a product category, such as electronics, accessories, or audio. That includes timeframes and conditions.\\n- **Web searches:** I can look up current information, news, or general facts. I can also read a specific webpage if you have one in mind.\\n\\nIf I can't help with something, I'll point you to the right contact.\\n\\nWhat would you like help with today?\"}]",
+            "finish_reason": "end_turn"
+          }
+        }
+      ],
+      "status": {
+        "code": "OK"
+      }
+    },
+    "@ptr": "Ct4BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjUaGAIGrifNEgAAAAEOJBVMAAav7QHAAAAEIiABKLvG+ZqfNDC+xvmanzQ4BUC3bEikflCNTSACEAEYAQ=="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:31.709",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-west-2",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "telemetry.sdk.version": "1.42.1",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.18.0-aws"
+        }
+      },
+      "scope": {
+        "name": "strands.telemetry.tracer",
+        "version": ""
+      },
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "2df8143f2a83ff74",
+      "parentSpanId": "3cac60747ad06cba",
+      "flags": 256,
+      "name": "invoke_agent Strands Agents",
+      "kind": "INTERNAL",
+      "startTimeUnixNano": 1795084409351137000,
+      "endTimeUnixNano": 1795084411709533400,
+      "durationNano": 2358396475,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "gen_ai.usage.prompt_tokens": 1519,
+        "gen_ai.usage.output_tokens": 187,
+        "gen_ai.usage.cache_write_input_tokens": 0,
+        "gen_ai.agent.name": "Strands Agents",
+        "gen_ai.usage.total_tokens": 1706,
+        "gen_ai.usage.completion_tokens": 187,
+        "aws.genai.span_kind": "AGENT",
+        "gen_ai.event.start_time": "2026-11-19T10:33:29.351173+00:00",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "gen_ai.provider.name": "strands-agents",
+        "gen_ai.operation.name": "invoke_agent",
+        "gen_ai.event.end_time": "2026-11-19T10:33:31.709504+00:00",
+        "gen_ai.usage.input_tokens": 1519,
+        "aws.genai.token_count_total": 1706,
+        "gen_ai.request.model": "global.anthropic.claude-sonnet-5-5",
+        "gen_ai.usage.cache_read_input_tokens": 0,
+        "gen_ai.agent.tools": "[\"get_return_policy\", \"get_product_info\", \"web_search_exa\", \"web_fetch_exa\"]",
+        "PlatformType": "AWS::BedrockAgentCore",
+        "gen_ai.usage.cache_creation.input_tokens": 0,
+        "session.id": "f5b5f02d-30e2-491f-a136-f2e5a8dd08b7",
+        "gen_ai.system": "strands-agents",
+        "gen_ai.usage.cache_read.input_tokens": 0
+      },
+      "events": [
+        {
+          "timeUnixNano": 1795084409351245000,
+          "name": "gen_ai.system.message",
+          "attributes": {
+            "content": "[{\"text\": \"You are a helpful and professional customer support assistant for an e-commerce company.\\nYour role is to:\\n- Provide accurate information using the tools available to you\\n- Be friendly, patient, and understanding with customers\\n- Always offer additional help after answering questions\\n- If you can't help with something, direct customers to the appropriate contact\\n\\nYou have access to tools for looking up return policies, searching product information, and more.\\nAdditional tools may be available at runtime — always check your full tool list and use the most appropriate tool for each customer request.\\nAlways use tools to get accurate, up-to-date information rather than guessing.\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1795084409351281400,
+          "name": "gen_ai.user.message",
+          "attributes": {
+            "content": "[{\"text\": \"What can you do?\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1795084411709476900,
+          "name": "gen_ai.choice",
+          "attributes": {
+            "message": "I'm a customer support assistant, and I can help with a few things:\n\n- **Product information:** I can look up products by name, ID (for example, PROD-001), or keyword. I can give you details like price, category, and description.\n- **Return policies:** I can tell you the return policy for a product category, such as electronics, accessories, or audio. That includes timeframes and conditions.\n- **Web searches:** I can look up current information, news, or general facts. I can also read a specific webpage if you have one in mind.\n\nIf I can't help with something, I'll point you to the right contact.\n\nWhat would you like help with today?\n",
+            "finish_reason": "end_turn"
+          }
+        }
+      ],
+      "status": {
+        "code": "OK"
+      }
+    },
+    "@ptr": "Ct4BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjUaGAIGrifNEgAAAAEOJBVMAAav7QHAAAAEIiABKLvG+ZqfNDC+xvmanzQ4BUC3bEikflCNTSACEAMYAQ=="
+  },
+  {
+    "@timestamp": "2026-11-19 10:33:31.710",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-west-2",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-west-2:010526271759:runtime/CustomerSupport_CustomerSupport-Oosmvk3n4V/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-Oosmvk3n4V-DEFAULT",
+          "telemetry.sdk.version": "1.42.1",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.18.0-aws"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.starlette",
+        "version": "0.63b1"
+      },
+      "traceId": "6afed071688a2f1413dc95ee2e547b15",
+      "spanId": "3cac60747ad06cba",
+      "parentSpanId": "4cf5a26dbc8aceed",
+      "flags": 768,
+      "name": "POST /invocations",
+      "kind": "SERVER",
+      "startTimeUnixNano": 1795084408913232600,
+      "endTimeUnixNano": 1795084411710294800,
+      "durationNano": 2797062075,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "net.peer.port": 53862,
+        "telemetry.extended": "true",
+        "http.target": "/invocations",
+        "http.flavor": "1.1",
+        "http.url": "http://cell01.us-west-2.prod.arp.kepler-analytics.aws.dev/invocations",
+        "net.peer.ip": "127.0.0.1",
+        "http.host": "127.0.0.1:8080",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "http.status_code": 200,
+        "aws.local.operation": "POST /invocations",
+        "aws.span.kind": "SERVER",
+        "http.server_name": "cell01.us-west-2.prod.arp.kepler-analytics.aws.dev",
+        "net.host.port": 8080,
+        "http.route": "/invocations",
+        "PlatformType": "AWS::BedrockAgentCore",
+        "http.method": "POST",
+        "http.response.status_code": 200,
+        "session.id": "f5b5f02d-30e2-491f-a136-f2e5a8dd08b7",
+        "http.scheme": "http"
+      },
+      "status": {
+        "code": "UNSET"
+      }
+    },
+    "@ptr": "Ct4BCqIBCl8wMTA1MjYyNzE3NTk6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LU9vc212azNuNFYtREVGQVVMVBAAGiRhMzcwMTM1Yy00MjFjLTQwYzItYWZkNC04Y2I2NWNiNzIxMGMiDgi/rvaanzQQ58KFnJ80QL+u9pqfNEgAEjUaGAIGrifNEgAAAAEOJBVMAAav7QHAAAAEIiABKLvG+ZqfNDC+xvmanzQ4BUC3bEikflCNTSACEAQYAQ=="
+  }
+]
