@@ -80,6 +80,14 @@
             "lambdaArn": "arn:aws:lambda:us-west-2:010526271759:function:workshop-warranty-check",
             "toolSchemaFile": "app/CustomerSupport/tool/warranty_schema.json"
           }
+        },
+        {
+          "name": "ProcessRefund",
+          "targetType": "lambdaFunctionArn",
+          "lambdaFunctionArn": {
+            "lambdaArn": "arn:aws:lambda:us-west-2:010526271759:function:workshop-process-refund",
+            "toolSchemaFile": "app/CustomerSupport/tool/refund_schema.json"
+          }
         }
       ],
       "authorizerType": "CUSTOM_JWT",
@@ -93,7 +101,11 @@
         }
       },
       "enableSemanticSearch": true,
-      "exceptionLevel": "NONE"
+      "exceptionLevel": "NONE",
+      "policyEngineConfiguration": {
+        "policyEngineName": "CustomerSupportPolicyEngine",
+        "mode": "ENFORCE"
+      }
     }
   ],
   "unassignedTargets": [
@@ -106,7 +118,30 @@
       }
     }
   ],
-  "policyEngines": [],
+  "policyEngines": [
+    {
+      "name": "CustomerSupportPolicyEngine",
+      "description": "Governs customer support agent tool access — refund limits and tool permissions",
+      "policies": [
+        {
+          "name": "refund_limit_policy",
+          "description": "Allow refunds under 100 dollars only",
+          "statement": "permit(principal, action == AgentCore::Action::\"ProcessRefund___process_refund\", resource == AgentCore::Gateway::\"arn:aws:bedrock-agentcore:us-west-2:010526271759:gateway/customersupport-my-gateway-secure-2njhwqqpxo\") when { context.input.amount < 100 };",
+          "validationMode": "FAIL_ON_ANY_FINDINGS",
+          "enforcementMode": "ACTIVE",
+          "authorizationPhase": "INITIATE"
+        },
+        {
+          "name": "warranty_check_policy",
+          "description": "Allow all authenticated users to check warranties",
+          "statement": "permit(principal, action == AgentCore::Action::\"WarrantyCheck___check_warranty\", resource == AgentCore::Gateway::\"arn:aws:bedrock-agentcore:us-west-2:010526271759:gateway/customersupport-my-gateway-secure-2njhwqqpxo\") when { (principal is AgentCore::OAuthUser) };",
+          "validationMode": "IGNORE_ALL_FINDINGS",
+          "enforcementMode": "ACTIVE",
+          "authorizationPhase": "INITIATE"
+        }
+      ]
+    }
+  ],
   "configBundles": [],
   "abTests": [],
   "harnesses": [],
